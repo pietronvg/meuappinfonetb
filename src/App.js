@@ -1,2 +1,20 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+import React from 'react';
+import Contato from './Telas/Contato/Contato'
+function App() {
+  return (
+    <Contato>
+      </Contato>
+    // <div style={{ textAlign: 'center' }}>
+    //   <header>
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
+  );
+}
+
+export default App;
